@@ -204,7 +204,7 @@ h1 {
 
 @keyframes html-fill {
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -214,7 +214,7 @@ h1 {
 
 @keyframes css-fill {
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -224,17 +224,33 @@ h1 {
 
 @keyframes javascript-fill {
   100% {
-    width: 15%;
+    width: 30%;
   }
 }
+#react-bar {
+  animation: react-fill 2s forwards;
+}
+
+@keyframes react-fill {
+  100% {
+    width: 30%;
+  }
+}
+
+#nodejs-bar {
+  animation: nodejs-fill 2s forwards;
+}
+
+@keyframes nodejs-fill {
+  100% {
+    width: 10%;
+  }
+}
+
 
 .language {
   display: none;
 }
-
-
-
-
 
 
 /* ------------------------------------------------ */
@@ -336,7 +352,7 @@ h3 {
 article {
   font-weight: lighter;
   color: #fff;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 a {
@@ -444,6 +460,7 @@ a:active {
     padding-top: 50px;
     margin-top: 50px;
     margin-left: 750px;
+    
   }
 
   .language {
@@ -552,10 +569,6 @@ a:active {
     font-size: 7em;
   }
 
-  article {
-    font-size: 1em;
-  }
-
   .header {
     font-size: 5em;
   }
@@ -589,10 +602,6 @@ a:active {
 
   h1 {
     font-size: 4.4em;
-    }
-
-    article {
-      font-size: 1em;
     }
 
   .heading2 {
